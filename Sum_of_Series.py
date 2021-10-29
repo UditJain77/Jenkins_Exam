@@ -6,6 +6,6 @@ def sum(n):
 		s = s + 1/i;
 	return s;
 
-num= int(input("Enter value of N: "))
+n= input("Enter value of N: ")
 
-print("Sum is", round(sum(num), 6))
+print("Sum is", round(sum(n), 6))
